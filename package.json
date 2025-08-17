@@ -2,7 +2,7 @@
     "name": "@kotonone/bakery",
     "description": "Cookie Clicker Library (Currently for Vue 3)",
     "author": "Kotone Fami",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "Unlicense",
     "main": "dist/index.cjs",
     "module": "dist/index.mjs",
