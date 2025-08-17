@@ -1,0 +1,33 @@
+{
+    "name": "@kotonone/bakery",
+    "description": "Cookie Clicker Library (Currently for Vue 3)",
+    "author": "Kotone Fami",
+    "version": "0.1.0",
+    "license": "Unlicense",
+    "main": "dist/index.cjs",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kotonone/bakery"
+    },
+    "scripts": {
+        "build": "rollup -c",
+        "dev": "rollup -c -w",
+        "format": "prettier --write ."
+    },
+    "devDependencies": {
+        "@rollup/plugin-terser": "^0.4.4",
+        "@rollup/plugin-typescript": "^12.1.4",
+        "prettier": "^3.6.2",
+        "rollup": "^4.46.2",
+        "rollup-plugin-dts": "^6.2.3",
+        "tslib": "^2.8.1"
+    },
+    "peerDependencies": {
+        "vue": "^3.0.0"
+    }
+}
