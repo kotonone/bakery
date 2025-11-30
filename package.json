@@ -14,8 +14,9 @@
         "type": "git",
         "url": "git+https://github.com/kotonone/bakery"
     },
+    "packageManager": "pnpm@10.24.0",
     "scripts": {
-        "build": "rollup -c",
+        "build": "pnpm format && rollup -c",
         "dev": "rollup -c -w",
         "format": "prettier --write ."
     },
