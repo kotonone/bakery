@@ -1,9 +1,10 @@
 {
     "name": "@kotonone/bakery",
-    "description": "Cookie Clicker Library (Currently for Vue 3)",
+    "description": "Cookie Clicker Library",
     "author": "Kotone Fami",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "license": "Unlicense",
+    "type": "module",
     "main": "dist/index.cjs",
     "module": "dist/index.mjs",
     "types": "dist/index.d.ts",
@@ -27,8 +28,5 @@
         "rollup": "^4.46.2",
         "rollup-plugin-dts": "^6.2.3",
         "tslib": "^2.8.1"
-    },
-    "peerDependencies": {
-        "vue": "^3.0.0"
     }
 }
